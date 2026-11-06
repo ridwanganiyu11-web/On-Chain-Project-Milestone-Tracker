@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 500" width="1500" height="500" fill="none">
+  <defs>
+    <radialGradient id="bannerGlow1" cx="25%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0D2E2D" />
+      <stop offset="60%" stop-color="#090D16" />
+      <stop offset="100%" stop-color="#05080F" />
+    </radialGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1500" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#14B8A6" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1500" height="500" fill="url(#bannerGlow1)" />
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="#1E293B" stroke-width="1" stroke-opacity="0.45">
+    <line x1="0" y1="100" x2="1500" y2="100" />
+    <line x1="0" y1="200" x2="1500" y2="200" />
+    <line x1="0" y1="300" x2="1500" y2="300" />
+    <line x1="0" y1="400" x2="1500" y2="400" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="900" y1="0" x2="900" y2="500" />
+    <line x1="1200" y1="0" x2="1200" y2="500" />
+  </g>
+
+  <!-- Left / Center Brand Typography -->
+  <g transform="translate(110, 145)">
+    <rect x="0" y="0" width="290" height="36" rx="18" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-width="1.5" />
+    <circle cx="20" cy="18" r="5" fill="#10B981" />
+    <text x="36" y="23" fill="#34D399" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="1.2">
+      BOTCHAIN TESTNET · CHAIN ID 968
+    </text>
+
+    <text x="0" y="102" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="68" font-weight="800" letter-spacing="-1.5">
+      Milestone<tspan fill="url(#accentGrad)">Chain</tspan>
+    </text>
+
+    <text x="0" y="152" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="600">
+      Track Progress. <tspan fill="#34D399">Prove Completion.</tspan> Build Trust.
+    </text>
+
+    <text x="0" y="196" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="16" font-weight="500">
+      On-Chain Project Milestone Verification · MetaMask · QR Proof Sharing
+    </text>
+  </g>
+
+  <!-- Right Visual Milestone Card -->
+  <g transform="translate(930, 85)">
+    <rect x="0" y="0" width="460" height="330" rx="28" fill="#0B1320" stroke="url(#accentGrad)" stroke-width="3" />
+    <text x="32" y="48" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="13" font-weight="700" letter-spacing="1">
+      ON-CHAIN VERIFIED ROADMAP
+    </text>
+    <text x="32" y="82" fill="#FFFFFF" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="800">
+      Website Development
+    </text>
+    <text x="365" y="78" fill="#10B981" font-family="Inter, system-ui, sans-serif" font-size="28" font-weight="900">
+      50%
+    </text>
+
+    <!-- Progress Bar -->
+    <rect x="32" y="102" width="396" height="12" rx="6" fill="#090D16" stroke="#1E293B" stroke-width="1" />
+    <rect x="32" y="102" width="198" height="12" rx="6" fill="url(#accentGrad)" />
+
+    <!-- Milestone Rows -->
+    <g transform="translate(32, 134)">
+      <rect x="0" y="0" width="396" height="38" rx="10" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4" />
+      <circle cx="20" cy="19" r="7" fill="#10B981" />
+      <text x="38" y="24" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600">Design the website</text>
+      <text x="305" y="24" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">COMPLETED</text>
+    </g>
+
+    <g transform="translate(32, 182)">
+      <rect x="0" y="0" width="396" height="38" rx="10" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4" />
+      <circle cx="20" cy="19" r="7" fill="#10B981" />
+      <text x="38" y="24" fill="#F8FAFC" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="600">Build the frontend</text>
+      <text x="305" y="24" fill="#34D399" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">COMPLETED</text>
+    </g>
+
+    <g transform="translate(32, 230)">
+      <rect x="0" y="0" width="396" height="38" rx="10" fill="#090D16" stroke="#1E293B" />
+      <circle cx="20" cy="19" r="7" fill="#F59E0B" />
+      <text x="38" y="24" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500">Connect the backend</text>
+      <text x="318" y="24" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">PENDING</text>
+    </g>
+
+    <g transform="translate(32, 278)">
+      <rect x="0" y="0" width="396" height="38" rx="10" fill="#090D16" stroke="#1E293B" />
+      <circle cx="20" cy="19" r="7" fill="#F59E0B" />
+      <text x="38" y="24" fill="#94A3B8" font-family="Inter, system-ui, sans-serif" font-size="14" font-weight="500">Launch the website</text>
+      <text x="318" y="24" fill="#64748B" font-family="JetBrains Mono, monospace" font-size="12" font-weight="700">PENDING</text>
+    </g>
+  </g>
+</svg>
